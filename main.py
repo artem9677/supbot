@@ -6,7 +6,7 @@ from datetime import datetime
 SUPPORT_BOT = telebot.TeleBot("8286157115:AAF7JNApuvIO2L9603NfBu9vgzcIgXL7ZF0")  # Замени!
 
 # Админы (те же, что в основном боте)
-ADMIN_IDS = [7339590336]
+ADMIN_IDS = [7298656509]
 
 # База тикетов: user_id -> list of {'type': 'message/call', 'content': str, 'date': str, 'ticket_id': str}
 support_tickets = {}
