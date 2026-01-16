@@ -3,10 +3,10 @@ from telebot import types
 from datetime import datetime
 
 # Токен support-бота (от @BotFather)
-SUPPORT_BOT = telebot.TeleBot("7845313092:AAGDut2c3HQWsagjwfLYk4-aHlGCR332FVQ")  # Замени!
+SUPPORT_BOT = telebot.TeleBot("8013974209:AAGRtOINlIUWAfkqhTw7Qhyt-8HzjVFhR5U")  # Замени!
 
 # Админы (те же, что в основном боте)
-ADMIN_IDS = [6840720060]
+ADMIN_IDS = [8424721481]
 
 # База тикетов: user_id -> list of {'type': 'message/call', 'content': str, 'date': str, 'ticket_id': str}
 support_tickets = {}
