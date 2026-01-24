@@ -3,7 +3,7 @@ from telebot import types
 from datetime import datetime
 
 # Токен support-бота (от @BotFather)
-SUPPORT_BOT = telebot.TeleBot("8013974209:AAGRtOINlIUWAfkqhTw7Qhyt-8HzjVFhR5U")  # Замени!
+SUPPORT_BOT = telebot.TeleBot("8568493712:AAF8-qEn4z0QkG_zI8LIe225qDt9P9L6-8M")  # Замени!
 
 # Админы (те же, что в основном боте)
 ADMIN_IDS = [8424721481]
