@@ -8,6 +8,7 @@ SUPPORT_BOT = telebot.TeleBot("7672183512:AAHHoUSumzMSAWxTxKL54xdGazugWA6SQA0") 
 # Админы (те же, что в основном боте)
 ADMIN_IDS = [8424721481]
 
+
 # База тикетов: user_id -> list of {'type': 'message/call', 'content': str, 'date': str, 'ticket_id': str}
 support_tickets = {}
 user_states = {}  # Состояния для шагов (например, ввод номера или ответа админа)
